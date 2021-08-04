@@ -1,0 +1,11 @@
+# Build output
+dist/
+.cache/
+development/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log*
+.vscode

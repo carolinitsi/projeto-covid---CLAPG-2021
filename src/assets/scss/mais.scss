@@ -1,0 +1,13 @@
+// GLOBAL
+@import './global/color.scss';
+@import './global/mixins.scss';
+
+// RESET
+@import './global/reset.scss';
+
+// COMPONENTS
+@import './components/header.scss';
+
+.started {
+  background-color: cornflowerblue;
+}
