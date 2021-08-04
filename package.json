@@ -7,7 +7,9 @@
     "dev": "npm run clean && parcel src/index.html -p 3000",
     "build": "rimraf ./dist && parcel build src/index.html --out-dir dist --public-url ./",
     "clean": "rimraf ./.cache",
-    "lint": "eslint --ignore-path .gitignore \"**/*.js\"",
+    "lint:es": "eslint --ignore-path .gitignore \"**/*.js\"",
+    "lint:style": "stylelint \"src/**/*.scss\"",
+    "lint": "npm run lint:es && npm run lint:style",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{js,json,scss,md}\""
   },
   "keywords": [],
@@ -29,6 +31,11 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-prettier": "^2.6.0"
+    "eslint-plugin-prettier": "^2.6.0",
+    "stylelint": "^9.2.0",
+    "stylelint-config-idiomatic-order": "^5.0.0",
+    "stylelint-config-prettier": "^3.2.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.1.0"
   }
 }
