@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run clean && parcel src/index.html -p 3000",
+    "dev": "npm run clean && parcel src/index.html -p 3000 -d development",
     "build": "rimraf ./dist && parcel build src/index.html --out-dir dist --public-url ./",
     "clean": "rimraf ./.cache",
     "lint:es": "eslint --ignore-path .gitignore \"**/*.js\"",

@@ -1,12 +1,19 @@
 // GLOBAL
 @import './global/color.scss';
 @import './global/mixins.scss';
+@import './global/fonts.scss';
 
 // RESET
 @import './global/reset.scss';
 
 // COMPONENTS
 @import './components/header.scss';
+
+body {
+  font-family: 'proxima', Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
 
 .started {
   background-color: cornflowerblue;
