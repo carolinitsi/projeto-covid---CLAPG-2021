@@ -1,6 +1,7 @@
 {
   "name": "covid-19-landing-page-vanilla",
   "version": "1.0.0",
+  "homepage": "src/",
   "description": "",
   "main": "index.js",
   "scripts": {
